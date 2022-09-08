@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="MinhaDiv">
+        <input id="Produto">
+        <input id="Preco">
+        <button onclick="add()">+</button>
+
+    </div>
+
+    <div id="divProdutos"></div>
+    <div id="divTotal"></div>
+
+
+
+
+
+
+    <script>
+        function add(){
+            var divProdutos = document.getElementById("divProdutos");
+            var nome = document.getElementById("Produto").value;
+            var preco = document.getElementById("Preco").value;
+            
+            var cont = 0;
+            var soma = 0.0;
+
+            soma += parseFloat(preco);
+            console.log(soma);
+            var conteudo = nome + " " + soma;
+            divProdutos.innerHTML = conteudo;
+
+
+
+        }
+    
+    
+    </script>
+
+
+
+</body>
+</html>
