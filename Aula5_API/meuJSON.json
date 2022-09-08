@@ -1,0 +1,13 @@
+{
+    "nome":"Adalto",
+    "idade":36,
+    "conjuge": {"nome": "Suzy", "idade": 39},
+    "filhos":[
+        {"nome": "Julia", "idade": 13},
+        {"nome":"Pedro", "idade": 5}
+    ],
+    "formatura":[2006, 2013, 2017],
+    "casado": true,
+    "altura": 1.75,
+    "endereco":null
+}
