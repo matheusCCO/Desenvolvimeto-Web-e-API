@@ -7,12 +7,12 @@ function lerDados(){
 
             var conteudo = "Nome"+ obj.nome +"<br>";
 
-            conteudo += "Conjuge:" + obj.cojuge.nome + "<br>";
+            conteudo += "Conjuge:" + obj.conjuge.nome + "<br>";
 
             document.getElementById("dados").innerHTML = conteudo;
         }
     };
 
-    xHTTP.open("GET", meuJSON.json,true);
+    xHTTP.open("GET", "meuJSON.json",true);
     xHTTP.send();
 }
