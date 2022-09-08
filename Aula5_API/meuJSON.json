@@ -6,7 +6,7 @@
         {"nome": "Julia", "idade": 13},
         {"nome":"Pedro", "idade": 5}
     ],
-    "formatura":[2006, 2013, 2017],
+    "formaturas":[2006, 2013, 2017],
     "casado": true,
     "altura": 1.75,
     "endereco":null

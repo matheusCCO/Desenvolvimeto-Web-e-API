@@ -8,6 +8,14 @@ function lerDados(){
             var conteudo = "Nome"+ obj.nome +"<br>";
 
             conteudo += "Conjuge:" + obj.conjuge.nome + "<br>";
+            conteudo += "filhos: <br>";
+            obj.filhos.forEach(filho => {
+                conteudo += filho.nome + " - > idade: "+ filho.idade +"<br>"
+            });
+            conteudo += "tempo desde as formaturas: <br>";
+            obj.formaturas.forEach( ano =>{
+                conteudo += (2022 - ano) + " ano(s) <br>";
+            })
 
             document.getElementById("dados").innerHTML = conteudo;
         }
