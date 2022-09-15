@@ -1,0 +1,18 @@
+<?xml verion = "1.0" encoding = "UTF-8">
+<lista_produtos>
+    <produto>
+        <id>1</id>
+        <nome>coca-cola</nome>
+        <preco>7.99</preco>
+    </produto>
+    <produto>
+        <id>2</id>
+        <nome>Pepsi</nome>
+        <preco>4.99</preco>
+    </produto>
+     <produto>
+        <id>2</id>
+        <nome>Fanta-Maçã</nome>
+        <preco>4.99</preco>
+    </produto>
+</lista_produtos>
